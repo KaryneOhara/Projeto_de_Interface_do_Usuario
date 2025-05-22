@@ -1,0 +1,7 @@
+img {
+    height: 200px;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap
+}
