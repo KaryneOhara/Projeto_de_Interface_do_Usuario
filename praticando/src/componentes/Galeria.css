@@ -1,0 +1,9 @@
+.galeria{
+    display: flex; /* Ativa o Flexbox */
+    flex-wrap: wrap; /* Permite que as divs quebrem para a próxima linha se necessário */
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}

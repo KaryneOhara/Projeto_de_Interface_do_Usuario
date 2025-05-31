@@ -1,0 +1,10 @@
+.detalhes img{
+    height: 450px;
+    width: auto;
+}
+.detalhes{
+    background-color: rgba(0, 70, 105, 0.271);
+    width: 500px;
+    margin-top: 40px;
+    border-radius: 15px
+};

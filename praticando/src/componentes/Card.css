@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.card{
+    background-color: rgba(0, 70, 105, 0.271);
+    width: 175px;
+    margin: 10px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+}
