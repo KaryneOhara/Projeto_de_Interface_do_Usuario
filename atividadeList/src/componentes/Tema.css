@@ -1,0 +1,16 @@
+
+.claro{
+    background-color: white;
+    color: black;
+}
+
+.escuro{
+    background-color: black;
+    color: white;
+}
+
+.alternar{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+}

@@ -1,0 +1,20 @@
+const atividades = [{id:1,
+    descricao: "Prova de Iuri",
+    },
+    {id:2,
+        descricao: "Prova de Iuri",
+    },
+    {id:3,
+        descricao: "Prova de Iuri",
+    },
+    {id:4,
+        descricao: "Prova de Iuri",
+    },
+    {id:5,
+        descricao: "Prova de Iuri",
+    },
+    {id:6,
+        descricao: "Prova de Iuri",
+    }
+]
+export default atividades

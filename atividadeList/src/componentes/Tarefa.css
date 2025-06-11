@@ -1,0 +1,12 @@
+button{
+    background-color: rgb(13, 48, 144);
+}
+.tarefa{
+    background-color: rgb(101, 145, 255);
+}
+.Pendente{
+    color: red;
+}
+.Concluida{
+    color: rgb(13, 48, 144);
+}
