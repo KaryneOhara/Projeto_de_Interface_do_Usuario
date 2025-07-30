@@ -7,11 +7,11 @@ export default function LoginForm() {
     // Para renderizar os emails na tela, é só descomentar as linhas de código
     // const [emails, setEmails] = useState([]);
 
-    const handleLoginChange = (e) => {
+    const handleLogin = (e) => {
         setLogin(e.target.value);
     };
 
-    const handleSenhaChange = (e) => {
+    const handleSenha = (e) => {
         setSenha(e.target.value);
     };
 
@@ -34,13 +34,13 @@ export default function LoginForm() {
                 <div>
                     <label>
                         <span>Login:</span>
-                        <input type="text" name="login" onChange={handleLoginChange} value={login} placeholder='Digite seu login:'/>
+                        <input type="text" name="login" onChange={handleLogin} value={login} placeholder='Digite seu login:'/>
                     </label>
                 </div>
                 <div>
                     <label>
                         <span>Senha:</span>
-                        <input type="password" name="senha" onChange={handleSenhaChange} value={senha} placeholder='Digite sua senha:'/>
+                        <input type="password" name="senha" onChange={handleSenha} value={senha} placeholder='Digite sua senha:'/>
                     </label>
                 </div>
                 <input type="submit" value='Enviar' />
